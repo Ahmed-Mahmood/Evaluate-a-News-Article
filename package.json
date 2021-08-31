@@ -1,10 +1,9 @@
 {
   "name": "example-project",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "jest",
-    "start": "node src/server/index.js",
+    "start": "node server.js",
     "sass": "node-sass -w scss/ -o css/ --recursive"
   },
   "keywords": [],
