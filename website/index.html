@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Evaluate a News Article</title>
+        <link rel="stylesheet" href="./styles/resets.css" />
+        <link rel="stylesheet" href="./styles/base.css" />
+        <link rel="stylesheet" href="./styles/footer.css" />
+        <link rel="stylesheet" href="./styles/form.css" />
+        <link rel="stylesheet" href="./styles/header.css" />
+        <link rel="stylesheet" href="./styles/result.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+
+    <body>
+
+        <div id="app">
+            <header>
+                <h1>
+                    Evaluate a News Article with Natural Language Processing
+
+                </h1>
+            </header>
+
+            <main>
+                <section>
+                    <form onsubmit="return urlSubmitHandler(event)">
+                        <input id="input-url" value="" type="text" placeholder="Enter a URL of an article">
+                        <input id="submit-btn" type="submit" value="submit" onclick="return urlSubmitHandler(event)"
+                            onsubmit="return urlSubmitHandler(event)">
+                        </form>
+                     <!-- <button id="submit-btn">Evaluate</button> -->
+                </section>
+
+                <section>
+                    <h2>Sentient Analyzing Results:</h2>
+
+                    <div id="result">
+                        <div id="span-name">
+                            <span id="polarity-n">polarity: </span>
+                            <span id="agreement-n">agreement: </span>
+                            <span id="subjectivity-n">subjectivity: </span>
+                            <span id="confidence-n">confidence: </span>
+                            <span id="irony-n">irony: </span>
+                        </div>
+                        <div id="span-value">
+                            <span id="polarity"></span>
+                            <span id="agreement"></span>
+                            <span id="subjectivity"></span>
+                            <span id="confidence"></span>
+                            <span id="irony"></span>
+                        </div>
+                    </div>
+
+                </section>
+            </main>
+
+            <footer>
+                <div id="social-icon">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram-square"></i></a>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                </div>
+                <div class="copyright">©2021</div>
+
+            </footer>
+        </div>
+
+        <script type="text/javascript" src="./js/index.js"></script>
+    </body>
+</html>

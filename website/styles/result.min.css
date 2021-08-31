@@ -1,0 +1,1 @@
+h2{margin-bottom:16px;font-size:20px;font-weight:bold;color:#1d3c75}#result{display:grid;grid-template-columns:1fr 1fr}#span-name{text-align:right;margin-right:8px}#span-value{text-align:left}span{display:block;font-size:18px;line-height:1.2;color:#1d3c75;text-transform:capitalize}@media (max-width: 320px){h2{font-size:18px}span{font-size:16px}}

@@ -1,0 +1,22 @@
+footer {
+    background: #1d3c75;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: .5rem 0 0;
+	box-shadow: 0 -2px 5px 0 rgba(0, 0, 0, 0.7);
+	#social-icon {
+		display: flex;
+		justify-content: center;
+	}
+	a {
+		margin: 0 5px;
+	}
+	.copyright {
+		margin-top: 10px;
+		text-align: center;
+		font-size: 1;
+		padding: 0 .5rem .5rem;
+		color: #ffffff;
+	}
+}
